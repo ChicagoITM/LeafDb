@@ -17,7 +17,7 @@ Notes:
 
 Step 2: Download, unzip, and run the following script to index the Leaf GUI search feature: LeafDB_Concept_Index.zip
 	
-Step 3: Download, unzip, and run the following script to associate Concept SQL Sets w/ SQL views: LeafDB_Concept_Index.zip
+Step 3: Download, unzip, and run the following script to associate Concept SQL Sets w/ SQL views: LeafDB_ConceptSQLSet.zip
 
 Note: If you already have an app.ConceptSQLSet table, you may comment out the create table SQL statement.
 		
