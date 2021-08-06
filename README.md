@@ -1,6 +1,6 @@
 Database code and documentation for the ITM instance of the Leaf clinical data explorer
 
-Overview: the contents of this repository represent a first pass at populating an ITM version of Leaf which is common to participating institutions.  Emphasis on 'first pass' as this will likely require a number of iterations to work through the many nuances involved in finding an acceptable solution which meets the individual needs of each participant while, at the same time, meeting the overall technical and operational needs of the group.  That said, we have to start somewhere and this is as good a place as any.
+Overview: the contents of this repository represent a first pass at populating an ITM instance of Leaf which is common to participating institutions.  Emphasis on 'first pass' as the process will likely require a number of iterations to work through the many nuances involved in finding an acceptable solution which meets the individual needs of each participant while, at the same time, meeting the overall technical and operational needs of the group.  That said, we have to start somewhere and this is as good a place as any.
 
 Assumptions:
 1. You have a Leaf 3.9.1 instance up and running w/ an MS SQL backend database.  While the name of the Leaf DB may differ depending on your specific configuration, suggestion to maintain consistency by naming the DB the following: LeafDB
