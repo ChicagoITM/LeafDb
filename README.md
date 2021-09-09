@@ -12,8 +12,8 @@ Step 1: Download, unzip, and run the following script to populate the Leaf GUI h
 Notes: 
 
 1. If you already have an app.Concept table, you may comment out the create table SQL statement.
-2. This script builds the concept hierarchy that you seen in the Leaf web interface.  Generated through a mostly-automated process, the content is based on the latest release of the UMLS Metathesaurus.  With each new release of the Metathesaurus, we can re-run the process which builds this SQL script, populate a revised app.Concept table, and publish the latest version.
-3. The concept hierarchy includes a dynamically-build 'where clause' which looks for a specific concept_code in the OMOP data (see step 5).  One exception to searching on concept_code is the demographic data.  Current approach favors Leaf visualization options.  Further discussion needed around visualization scope within ITM Leaf instances.  
+2. This script builds the concept hierarchy that you see in the Leaf web interface.  Generated through a mostly-automated process, the content is based on the latest release of the UMLS Metathesaurus.  With each new release of the Metathesaurus, we can re-run the process which builds this SQL script, populate a revised app.Concept table, and publish the latest version.
+3. The concept hierarchy includes a dynamically-built 'where clause' which looks for a specific concept_code in the OMOP data (see step 5).  One exception to searching on concept_code is the demographic data.  Current approach favors Leaf visualization options.  Further discussion needed around visualization scope within ITM Leaf instances.  
 
 Step 2: Download, unzip, and run the following script to index the Leaf GUI search feature: LeafDB_Concept_Index.zip
 	
